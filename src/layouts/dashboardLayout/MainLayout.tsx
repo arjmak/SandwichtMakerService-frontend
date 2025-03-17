@@ -1,6 +1,6 @@
 import { Outlet } from "react-router-dom";
 import useWindowDimensions from "../../scripts/useWindowDimensions";
-import HeaderGPI from "./menuHeader/HeaderDialog";
+import HeaderGPI from "./menuHeader/HeaderGPI";
 
 function MainLayout() {
   const { width } = useWindowDimensions();
