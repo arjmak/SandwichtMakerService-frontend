@@ -25,5 +25,4 @@ dist-ssr
 
 # IDE
 pnpm-lock.yaml
-README.md
 .env
