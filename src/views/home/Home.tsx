@@ -1,7 +1,13 @@
-import React from 'react'
+import React from 'react';
+import SandwichList from '../../components/sandwichList';
 
-function Home() {
-  return <div className="flex flex-col h-full lg:pt-14 flex-1">Home</div>;
-}
+const App: React.FC = () => {
+    return (
+        <div className="flex items-center justify-center h-screen bg-gray-100">
+            <h1 className="text-2xl mb-4">Sandwiches</h1>
+            <SandwichList />
+        </div>
+    );
+};
 
-export default Home
+export default App;
