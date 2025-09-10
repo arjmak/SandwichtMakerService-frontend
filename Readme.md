@@ -7,7 +7,7 @@ Objectivo:
 Realizar una prueba de concepto de nuestra arquitectura de integracion creando un prototipo
 
 Teoricamente (Pseudo Rubica):
-- Con Docker crearemos un entorno de trabajo aislado para equipo.
+- Con Docker crearemos un entorno de trabajo aislado para cada equipo.
 - Para cada equipo existiran 3 instancias docker: 1 para el front, 1 para el back y 1 para su base de datos.
 - Se podra establecer connexiones entre los docker haciendo un ecosistema de servicios.
 
