@@ -14,7 +14,7 @@ Teoricamente (Pseudo Rubica):
 Prototipo: Sandwicht Maker
 - Utilizando los templates de frontend y backend creamos una app que almacene y muestre sandwiches
 - El fronted solo lista el contenido de la base de datos, pero para ello tiene que establacer una conexion con el backend.
-- El backend tiene denifida operaciones crud para crear,remover,modificar y recastar datos de la base datos.
+- El backend tiene definida operaciones crud para crear,remover,modificar y rescatar datos de la base datos.
 - La base de datos funciona en una instacia aislada.
 
 Instrucciones
