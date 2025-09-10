@@ -18,12 +18,13 @@ Prototipo: Sandwicht Maker
 - La base de datos funciona en una instacia aislada.
 
 Instrucciones
-- clonar ambos repositorios y dejarlos en el mismo directorios.
+1. clonar ambos repositorios y dejarlos en el mismo directorios.
   => Seguir instrucciones de instalacion de los templates.
   => Ademas con un terminal ejecutar "npm update" en directorio del backend.
-- Poner en el interior del backend y frontend su respectivo dockerfile, cambiar su nombre para que sea "Dockerfile"
-- En directorio que contiene ambos repositorios poner el docker-compose.
-- Ejecutar con una terminar ejecutar "docker-compose up --build" en directorio del docker-compose
-- Si en docker corren las images, deberia poderse usar el frontend y el backend en browser
+2. Poner en el interior del backend y frontend su respectivo dockerfile, cambiar su nombre para que sea "Dockerfile"
+3. En directorio que contiene ambos repositorios poner el docker-compose.
+4. Ejecutar con una terminar ejecutar "docker-compose up --build" en directorio del docker-compose
+5. Si en docker corren las images, deberia poderse usar el frontend y el backend en browser
   => Las operaciones crud se pueden probar con postman
   => La base de datos esta vacia por defecto, por lo tanto hay que llenarla con algo para visualizar cambios en el front.
+
